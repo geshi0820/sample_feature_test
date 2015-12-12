@@ -1,0 +1,11 @@
+/Users/Shige/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20151212-51346-cfze4u.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 debug_inspector.bundle ./.gem.20151212-51346-1xlbdg9

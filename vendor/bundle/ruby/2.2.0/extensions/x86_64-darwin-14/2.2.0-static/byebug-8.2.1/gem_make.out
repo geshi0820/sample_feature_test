@@ -1,0 +1,15 @@
+/Users/Shige/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20151212-51346-1x5xbpp.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 byebug.bundle ./.gem.20151212-51346-1h3hgb4/byebug
