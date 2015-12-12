@@ -27,7 +27,8 @@ group :test do
   gem 'factory_girl_rails'     # テストデータの生成
   gem 'database_cleaner'       # テスト実行後にDBをクリア
   gem 'capybara'               # ブラウザでの操作をシミュレートしてテストができる
-  gem 'cucumber-rails', :require => false
+  gem 'turnip'
+  # gem 'cucumber-rails', :require => false
 end
 
 
@@ -37,5 +38,4 @@ group :test, :development do
   gem 'pry-rails'              # railsでpryが使える
   gem 'pry-byebug'             # pryでデバックコマンドが使える
   gem 'awesome_print'          # プリントデバッグの出力を整形
-  gem 'turnip'
 end
