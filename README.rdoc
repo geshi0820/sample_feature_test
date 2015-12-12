@@ -1,5 +1,4 @@
 # Setup Turnip
 
-
-
-[私もTurnipのセットアップにはまったので、うまく行った方法をまとめました。](http://qiita.com/geshi/items/00984201f79b8a208fa6)
+私もTurnipのセットアップにはまったので、うまく行った方法をまとめました。
+http://qiita.com/geshi/items/00984201f79b8a208fa6
