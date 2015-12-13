@@ -34,6 +34,7 @@ end
 
 group :test, :development do
   gem 'spring'                 # RspecなどでRailsをプリロードする
+  gem 'spring-commands-rspec'
   gem 'tapp'                   # プリントデバッグがしやすくなる
   gem 'pry-rails'              # railsでpryが使える
   gem 'pry-byebug'             # pryでデバックコマンドが使える
