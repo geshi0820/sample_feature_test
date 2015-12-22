@@ -28,6 +28,7 @@ group :test do
   gem 'capybara'               # ブラウザでの操作をシミュレートしてテストができる
   gem 'turnip'
   # gem 'cucumber-rails', :require => false
+  gem 'selenium-webdriver'
 end
 
 
