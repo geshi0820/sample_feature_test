@@ -14,7 +14,6 @@ gem 'rails_autolink'           # URLの自動リンク化
 gem 'dotenv-rails'             # 環境変数管理
 
 group :development do
-  gem 'guard-rspec'            # ファイルが変更されたらRsepcを自動実行
   gem 'better_errors'          # エラー画面を見やすくする
   gem 'binding_of_caller'      # better_errorsのエラー画面でREPLが使える
   gem 'hirb'                   # SQLの結果を見やすく整形してくれる
@@ -29,13 +28,16 @@ group :test do
   gem 'capybara'               # ブラウザでの操作をシミュレートしてテストができる
   gem 'turnip'
   # gem 'cucumber-rails', :require => false
+  gem 'selenium-webdriver'
 end
 
 
 group :test, :development do
+  gem 'awesome_print'          # プリントデバッグの出力を整形
+  gem 'guard-rspec'            # ファイルが変更されたらRsepcを自動実行
+  gem 'pry-byebug'             # pryでデバックコマンドが使える
+  gem 'pry-rails'              # railsでpryが使える
+  gem 'spring-commands-rspec'
   gem 'spring'                 # RspecなどでRailsをプリロードする
   gem 'tapp'                   # プリントデバッグがしやすくなる
-  gem 'pry-rails'              # railsでpryが使える
-  gem 'pry-byebug'             # pryでデバックコマンドが使える
-  gem 'awesome_print'          # プリントデバッグの出力を整形
 end
